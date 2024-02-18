@@ -1,0 +1,451 @@
+/* Common css Start  */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.button a{
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 18px;
+    color: #1B1C2B;
+    padding: 16px 56px;
+    background: #FCD980;
+    border-radius: 100px;
+}
+
+/* Common css End  */
+
+/* ===Navbar start=== */
+.navbar{
+    background: rgb(22, 12, 109, .7);
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+.content_active:hover{
+    color: #1BBF00;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 35px;
+    padding-left: 25px;
+    /* padding-right: var(--bs-navbar-nav-link-padding-x); */
+    /* padding-left: var(--bs-navbar-nav-link-padding-x); */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #EFF4FA;
+}
+.navbar-expand-lg .navbar-nav:last-child .nav-link {
+    padding-right: 0;
+}
+.nav_button button{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #19bf0000;
+    padding: 14px 28px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+
+}
+.ver_home:hover{
+    color: #1BBF00;
+}
+/* ===Navbar end=== */
+
+
+/* Building_stellar Start */
+#Building_stellar{
+    background: url(../images/Background.png);
+    padding: 126px 0 128px 0 ;
+
+}
+
+#Building_stellar .text h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 54px;
+    color: #FFFFFF;
+    width: 582px;
+}
+#Building_stellar .text p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 562px;
+}
+/* Building_stellar Start */
+
+/* === we_work Start==*/
+#we_work{
+    background: url(../images/we\ work\ bannar\ 2.png);
+    padding: 128px 0;
+}
+
+#we_work .part_one h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #282938;
+}
+#we_work .part_one P{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+    opacity: 0.7;
+    width: 405px;
+    margin-left: 0;
+}
+#we_work .part_one a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #2405F2;
+}
+#we_work .card_part h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #282938; 
+    margin-top: 16px;   
+}
+#we_work .card_part p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+    width: 303px;
+    opacity: 0.7;
+    
+}
+/* === we_work End==*/
+
+/***View our project start*** */
+#view_project{
+    padding: 128px 0;
+}
+#view_project .view{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #282938;
+    margin-bottom: 64px;
+}
+#view_project .view_more{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #282938;
+    margin: 24px 0 75px 270px;
+}
+#view_project .image .picture_top{
+    margin-bottom: 32px;
+}
+/* **View our project end*** */
+
+/* ===Features part start=== */
+#Features{
+    background: url(../images/Features\ bannar.png);
+    padding: 128px 0;
+}
+#Features .text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #282938;
+    
+}
+#Features .text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    color: #282938;
+    width: 630px;
+    margin-bottom: 47px;
+}
+#Features .feature_card{
+    padding: 48px;
+    box-shadow: 10px 10px 10px rgba(102, 102, 124, 0.1);
+    margin-bottom: 24px;
+}
+#Features .feature_card h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #282938;
+    margin: 22px 0 12px;
+    
+
+}
+#Features .feature_card p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+    opacity: 0.7;
+    width: 324.08px;
+    margin-left: 0;
+    
+    
+}
+/* ===Features part end === */
+
+/* --Our clients part start-- */
+#our_clients{
+    background: url(../images/Bannar\ our\ clients.png);
+    padding: 128px 0 ;
+}
+#our_clients .left_side h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    color: #282938;
+    width: 327px;
+    margin-left: 0;
+    margin-bottom: 16px;
+}
+#our_clients .left_side p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+    opacity: 0.7;
+    width: 327px;
+    margin-left: 0;
+}
+#our_clients .right_side p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #282938;
+}
+#our_clients .right_side img{
+    
+}
+/* --Our clients part end-- */
+
+/* ===Frequently area start== */
+#frequently .left_side h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    color: #282938;
+}
+#frequently .left_side a{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #2405F2;
+    opacity: 0.87;
+}
+/* ===Frequently area end== */
+
+/* Bulding stellar start */
+#bulding_stellar .left_side{
+    background: url(../images/woman-writing-on-paper-3228878.png);
+    padding: 96px 96px 261px;
+    position: relative;
+}
+#bulding_stellar .left_side::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.5);
+
+}
+
+/* Bulding stellar end */
+
+/* ====Our Blog Part Start=== */
+#our_blog {
+    padding: 128px 0 ;
+}
+#our_blog h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    margin-bottom: 60px;
+}
+#our_blog .january{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #282938;
+    opacity: 0.7;
+    margin: 40px 0 16px;
+}
+#our_blog .how_one{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+
+}
+#our_blog .see_how{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    width: 405px;
+}
+
+#our_blog .read{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+
+}
+
+/* ====Our Blog Part End === */
+
+/* Footar area Start */
+#footar{
+    background: url(../images/footar\ background.png);
+    padding: 128px 0 0;
+}
+#footar .left_side .we_are{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 399px;
+    margin:22px 0 0;
+
+}
+#footar .left_side .contact{
+    width: 517px;
+    height: 95px;
+    background: #FCD980;
+    display: flex;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 86px;
+}
+#footar .left_side .contact .hedding{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    margin-bottom: 0;
+}
+#footar .left_side .contact p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.8;
+    
+}
+#footar .right_side h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+#footar .right_side p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    opacity: 0.8;
+    width: 399px;
+    margin-left: 0;
+}
+#footar .right_side .icons{
+    color: #F4F6FC;
+    margin: 0 10px;
+    font-size: 20px;
+}
+/* Footar area End */
+
+#copyright{
+    background: url(../images/last\ Backgrougd.png);
+    padding: 32px 0;
+}
+#copyright .left_side p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+#copyright .right_side ul{
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+#copyright .right_side ul:first-child ol{
+    margin-left: 0;
+    padding-left: 0;
+}
+#copyright .right_side a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+   
+}
